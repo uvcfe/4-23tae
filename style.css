@@ -1,0 +1,31 @@
+* {
+   background-color: black;
+    border: 1px solid red;
+    color: white;
+}
+/* header{
+    position: fixed;
+    
+} */
+
+.header_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+section{
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+}
+footer{
+    height: 150px;
+}
+.contact{
+    border: 1px solid white;
+    border-radius: 10px;
+}
