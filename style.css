@@ -6,7 +6,9 @@
     padding-right: 10px;
     
 }
-
+.contact{
+    border-radius: 20px;
+}
 
 .header_nav{
     background-color: black;
@@ -35,6 +37,8 @@ section{
 footer{
     display: flex;
     flex-direction: row;
+    border-top: 1px solid gray;
+    padding-top: 10px;
 }
 .footer_center_call{
     display: flex;
