@@ -2,7 +2,7 @@
 
 * {
     background-color: black;
-     border: 1px solid red;
+     /* border: 1px solid red; */
      color: white;
      padding-left: 10px;
      padding-right: 10px;
@@ -10,6 +10,10 @@
  }
  .contact{
      border-radius: 20px;
+     border: 1px solid white;
+ }
+ .contact:hover{
+    background-color: rgb(152, 148, 148);
  }
  
  .header_nav{
@@ -36,16 +40,49 @@
      margin-top: 35px;
      
  }
+ .section_4{
+    display: flex;
+    
+    
+    img{
+        width: 50%;
+       
+    }
+ }
  footer{
      display: flex;
-     flex-direction: row;
      border-top: 1px solid gray;
-     padding-top: 10px;
+     padding-top: 20px;
+     padding-left: 0px;
+     padding-right: 0px;
+     padding-bottom: 0px;
+     height: 200px;
  }
- .footer_center_call{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
+ .footer_sns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+
+ }
+ .footer_center_all{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+
+ }
+ .footer_all{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+    
+ }
+ .footer_address{
+    p{opacity: 0.3;
+    font-size: xx-small;}
+    padding: 0px;
  }
  
  
